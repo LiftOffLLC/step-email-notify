@@ -9,7 +9,7 @@ Send an email message (note: requires python 2.x)
 ### required
 
 * `from` - From address.
-* `to` - To address.
+* `to` - To address(es) csv for multiple.
 * `host` - The host of your SMTP server.
 * `username` - The username for your SMTP server.
 * `password` - The password for your SMTP server.
@@ -39,6 +39,9 @@ Add EMAIL_PASSWORD as deploy target or application environment variable.
 ```
 
 # Changelog
+## 1.1.1
+- added support for multiple 'to' addresses
+
 ## 1.1.0
 - added result (passed/failed) message for build and deploys
 
