@@ -10,7 +10,7 @@ if len(sys.argv) < 8 :
   sys.exit(1)
 
 fromaddr = str(sys.argv[1])
-toaddrs = str(sys.argv[2])
+toaddrs = str(sys.argv[2]).split(",")
 subject  = str(sys.argv[3])
 body  = str(sys.argv[4])
 username  = str(sys.argv[5])
